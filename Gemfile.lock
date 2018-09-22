@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (10.0.2)
+    json (2.1.0)
+    rake (12.3.1)
+    ruby-debug-ide (0.6.1)
+      rake (>= 0.8.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  json
+  ruby-debug-ide
+
+BUNDLED WITH
+   1.16.2
