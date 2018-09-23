@@ -1,16 +1,22 @@
 require 'json'
 
-def retrive_sets(file_path)
+def retrive_chapters(file_path)
   content = File.read(file_path)
   JSON.parse(content)
 end
 
-def reject_sets_with_no_elements(sets)
-  sets.reject { |set| set['pending'].none? }
+def reject_chapters_with_no_problems(chapters)
+  chapters.reject do |chapter|
+    chapter['groups'].all? { |group| group['pending'].none? }
+  end
 end
 
-def persit_sets(sets, file_path)
-  File.open(file_path, 'w') { |f| f.write(JSON.pretty_generate(sets)) }
+def get_random_group_with_problems(chapter)
+  chapter['groups'].select { |g| g['pending'].any? }.sample
+end
+
+def persit_chapters(chapters, file_path)
+  File.open(file_path, 'w') { |f| f.write(JSON.pretty_generate(chapters)) }
 end
 
 def delete_random_item(array)
@@ -21,18 +27,19 @@ def get_random_items(array, count)
   array.shuffle[0...count]
 end
 
-SETS_COUNT = 3
-FILE_PATH = File.join(__dir__, 'data', 'sets.json')
+CHAPTERS_COUNT = 3
+FILE_PATH = File.join(__dir__, 'data', 'chapters.json')
 
-sets = retrive_sets(FILE_PATH)
-random_sets = get_random_items(reject_sets_with_no_elements(sets), SETS_COUNT)
+chapters = retrive_chapters(FILE_PATH)
+random_chapters = get_random_items(reject_chapters_with_no_problems(chapters), CHAPTERS_COUNT)
 
-random_sets.each do |set|
-  element = delete_random_item(set['pending'])
-  set['used'] << element
-  set['used'].sort!
+random_chapters.each do |chapter|
+  group = get_random_group_with_problems(chapter)
+  problem = delete_random_item(group['pending'])
+  group['solved'] << problem
+  group['solved'].sort!
 
-  puts "#{set['name']} - #{element}"
+  puts "#{chapter['name']} - #{group['name']} - #{problem}"
 end
 
-persit_sets(sets, FILE_PATH)
+persit_chapters(chapters, FILE_PATH)
