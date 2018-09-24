@@ -1,6 +1,6 @@
 [
   {
-    "name": "Сhapter 1",
+    "name": "Сhapter 4",
     "groups": [
       {
         "name": "Group 1",
@@ -11,99 +11,22 @@
           4,
           5,
           6,
-          7
-        ],
-        "solved": [
-
-        ]
-      },
-      {
-        "name": "Group 2",
-        "pending": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
-        "solved": [
-
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Сhapter 2",
-    "groups": [
-      {
-        "name": "Group 2",
-        "pending": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "solved": [
-
-        ]
-      },
-      {
-        "name": "Group 3",
-        "pending": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
           7,
-          8
-        ],
-        "solved": [
-
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Сhapter 3",
-    "groups": [
-      {
-        "name": "Group 1",
-        "pending": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
-        "solved": [
-
-        ]
-      },
-      {
-        "name": "Group 2",
-        "pending": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "solved": [
-
-        ]
-      },
-      {
-        "name": "Group 3",
-        "pending": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          21,
+          22,
+          23,
+          24
         ],
         "solved": [
 
