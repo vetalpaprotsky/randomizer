@@ -27,7 +27,7 @@ def get_random_items(array, count)
   array.shuffle[0...count]
 end
 
-CHAPTERS_COUNT = 3
+CHAPTERS_COUNT = ARGV[0].to_i || 3
 FILE_PATH = File.join(__dir__, 'data', 'chapters.json')
 
 chapters = retrive_chapters(FILE_PATH)
