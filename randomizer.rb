@@ -27,8 +27,8 @@ def get_random_items(array, count)
   array.shuffle[0...count]
 end
 
-CHAPTERS_COUNT = ARGV[0].to_i
-CHAPTERS_COUNT = 3 unless CHAPTERS_COUNT.positive?
+chapters_count = ARGV[0].to_i
+CHAPTERS_COUNT = chapters_count.positive? ? chapters_count : 3
 FILE_PATH = File.join(__dir__, 'data', 'chapters.json')
 
 chapters = retrive_chapters(FILE_PATH)
