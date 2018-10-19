@@ -24,9 +24,9 @@ def delete_random_item(array)
 end
 
 def get_random_chapters(chapters, count)
-  # chapters.shuffle[0...count]
+  chapters.shuffle[0...count]
   # Kind of random :) Let's use this approach for now.
-  sort_chapters_by_solved_count(chapters)[0...count]
+  # sort_chapters_by_solved_count(chapters)[0...count]
 end
 
 def count_solved_problems(chapter)
