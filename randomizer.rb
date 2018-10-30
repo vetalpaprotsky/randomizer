@@ -40,7 +40,7 @@ def sort_chapters_by_solved_count(chapters)
 end
 
 chapters_count = ARGV[0].to_i
-CHAPTERS_COUNT = chapters_count.positive? ? chapters_count : 3
+CHAPTERS_COUNT = chapters_count.positive? ? chapters_count : 4
 FILE_PATH = File.join(__dir__, 'data', 'chapters.json')
 
 chapters = retrive_chapters(FILE_PATH)
