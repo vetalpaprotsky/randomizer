@@ -1,6 +1,6 @@
 [
   {
-    "name": "Сhapter 2",
+    "name": "Chapter 2",
     "groups": [
       {
         "name": "Group 1",
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "name": "Сhapter 3",
+    "name": "Chapter 3",
     "groups": [
       {
         "name": "Group 1",
@@ -181,7 +181,7 @@
     ]
   },
   {
-    "name": "Сhapter 4",
+    "name": "Chapter 4",
     "groups": [
       {
         "name": "Group 1",
@@ -215,7 +215,7 @@
     ]
   },
   {
-    "name": "Сhapter 5",
+    "name": "Chapter 5",
     "groups": [
       {
         "name": "Group 1",
@@ -302,7 +302,7 @@
     ]
   },
   {
-    "name": "Сhapter 6",
+    "name": "Chapter 6",
     "groups": [
       {
         "name": "Group 1",
@@ -415,7 +415,7 @@
     ]
   },
   {
-    "name": "Сhapter 7",
+    "name": "Chapter 7",
     "groups": [
       {
         "name": "Group 1",
@@ -464,7 +464,7 @@
     ]
   },
   {
-    "name": "Сhapter 8",
+    "name": "Chapter 8",
     "groups": [
       {
         "name": "Group 1",
@@ -550,7 +550,7 @@
     ]
   },
   {
-    "name": "Сhapter 9",
+    "name": "Chapter 9",
     "groups": [
       {
         "name": "Group 1",
@@ -782,7 +782,7 @@
     ]
   },
   {
-    "name": "Сhapter 13",
+    "name": "Chapter 13",
     "groups": [
       {
         "name": "Group 1",
@@ -894,7 +894,7 @@
     ]
   },
   {
-    "name": "Сhapter 14",
+    "name": "Chapter 14",
     "groups": [
       {
         "name": "Group 1",
@@ -1000,7 +1000,7 @@
     ]
   },
   {
-    "name": "Сhapter 15",
+    "name": "Chapter 15",
     "groups": [
       {
         "name": "Group 1",
@@ -1059,7 +1059,7 @@
     ]
   },
   {
-    "name": "Сhapter 16",
+    "name": "Chapter 16",
     "groups": [
       {
         "name": "Group 1",
@@ -1095,7 +1095,7 @@
     ]
   },
   {
-    "name": "Сhapter 17",
+    "name": "Chapter 17",
     "groups": [
       {
         "name": "Group 2",
@@ -1148,7 +1148,7 @@
     ]
   },
   {
-    "name": "Сhapter 19",
+    "name": "Chapter 19",
     "groups": [
       {
         "name": "Group 1",
@@ -1219,6 +1219,121 @@
           13,
           16,
           20
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 24",
+    "groups": [
+      {
+        "name": "Group 1",
+        "pending": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "solved": [
+
+        ]
+      },
+      {
+        "name": "Group 2",
+        "pending": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "solved": [
+
+        ]
+      },
+      {
+        "name": "Group 3",
+        "pending": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "solved": [
+
+        ]
+      }
+    ]
+  }
+  ,
+  {
+    "name": "Chapter 25",
+    "groups": [
+      {
+        "name": "Group 2",
+        "pending": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "solved": [
+
+        ]
+      },
+      {
+        "name": "Group 3",
+        "pending": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "solved": [
+
         ]
       }
     ]
